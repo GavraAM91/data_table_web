@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+}
+
+header {
+    background-color: #212529;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}   
+
+header .judul {
+    color: #f8f9fa; 
+    font-size: 26px;
+    font-family: Helvetica;
+}
+
+.photo {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.photo img {
+    width: 50%;
+    height: auto;
+}
+.content {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: large;
+    color: #212529;     
+}
+
+table {
+    background-color: #e9ecef;
+    margin: 0 auto; 
+    font-family: Helvetica;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    min-width: 400px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table th, table td {
+    padding: 20px;
+    text-align: center;
+}
+
+table tr th{
+    background-color: #343a40;   
+    color: #f1faee;
+}
+
+.table tr:hover {
+    background-color: #adb5bd;
+}
+
+table tr:nth-child(even) {
+    background-color: #dee2e6;
+}
+
